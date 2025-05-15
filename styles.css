@@ -1,0 +1,62 @@
+/* Custom Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('https://source.unsplash.com/1920x1080/?barber-shop') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-section .overlay {
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay to make text stand out */
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.hero-section .overlay h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-section .overlay p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.hero-section .btn {
+    margin-top: 1rem;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Services Section */
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Footer */
+footer p {
+    margin: 0;
+}
